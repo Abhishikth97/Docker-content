@@ -2,7 +2,7 @@
 FROM httpd:latest
 
 # Copy website files to the container
-COPY ./Docker-content/Case-study\ app/ /usr/local/apache2/htdocs/
+COPY ./Docker-content/Case-study app /usr/local/apache2/htdocs/
 
 # Expose port 80
 EXPOSE 80
